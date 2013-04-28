@@ -7,7 +7,7 @@ $navbarBackground: white;
 @import 'bootstrap';
 
 body {
-	padding-top: 60px;
+	padding-top: 90px;
 }
 
 @import 'bootstrap-responsive';
@@ -15,6 +15,7 @@ body {
 .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
+  padding: 18px;
 }
 
 .footer {
@@ -25,11 +26,20 @@ body {
 	}
 }
 
+.hero-unit {
+  background-color: #f5f5f5;
+    padding: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 5px #999;
+}
+
 /* Required for jQuery Masonry */
 
 .box {
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
     font-size: 12px;
     line-height: 1.4em;
     float: left;
