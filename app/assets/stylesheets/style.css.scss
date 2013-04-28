@@ -44,14 +44,14 @@ body {
 .box {
     margin: 5px;
     padding: 5px;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 1.4em;
     float: left;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
     box-shadow: 1px 1px 10px #888;
-    width: 214px;
+    width: 271px;
 }
 
 .box img {
@@ -59,6 +59,10 @@ body {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+}
+
+.box p {
+  text-indent: 5px;
 }
 
 .description {
