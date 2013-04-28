@@ -1,12 +1,32 @@
 <% unless user_signed_in? %>
 	<div class="hero-unit">
+		<div class="container">
 		<h1>Welcome to the Gameworn Jersey Project</h1>
 			<p>
 				You've found the home page for the 
 				<%= link_to "Gameworn Jersey Project", "http://gamewornjerseyproject.com" %>
 			</p>
 			<p>
-				<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
+				<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-large" %>
 			</p>
+				</div>
+			</div>
+			<br>
+			<div class="container">
+				<div class="row-fluid">
+				<div class="span4">
+					<img src="http://placehold.it/350x150" class="img-polaroid">
+					<h2>Upload</h2>
+					</div>
+				<div class="span4">
+					<img src="http://placehold.it/350x150" class="img-polaroid">
+					<h2>Tag</h2>
+				</div>
+				<div class="span4">
+					<img src="http://placehold.it/350x150" class="img-polaroid">
+					<h2>Educate</h2>
+				</div>
+			</div>
 	</div>
+</div>
 <% end %>
