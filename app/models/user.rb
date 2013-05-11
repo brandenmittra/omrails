@@ -11,5 +11,4 @@ class User < ActiveRecord::Base
 
   has_many :pins, dependent: :destroy
 
-  acts_as_voter
 end
