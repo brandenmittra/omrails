@@ -8,6 +8,9 @@ Omrails::Application.routes.draw do
 
   get 'about' => 'pages#about'
   get 'contact' => 'pages#contact'
+  get 'basics' => 'pages#basics'
+  get 'links' => 'pages#links'
+
 
 
   root :to => 'pins#index'
